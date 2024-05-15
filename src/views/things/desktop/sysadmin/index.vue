@@ -142,7 +142,7 @@ import { Icon } from '/@/components/Icon';
 import { CountTo } from '/@/components/CountTo/index';
 import { useWebsocketStore } from '/@/store/modules/websocket';
 import { useGo } from '/@/hooks/web/usePage';
-import GetStarted from '../components/getStarted.vue';
+import GetStarted from '../components/GetStarted.vue';
 import GeoMap from '../components/chart/GeoMap.vue';
 import MessageTransportBar from '../components/chart/MessageTransportBar.vue';
 import StorageDataPointsBar from '../components/chart/StorageDataPointsBar.vue';

@@ -28,7 +28,7 @@ import { Row, Col } from 'ant-design-vue';
 import AlertCountCard from '../components/AlertCountCard.vue';
 import DeviceCountCard from '../components/DeviceCountCard.vue';
 import EntityCountCard from '../components/EntityCountCard.vue';
-import GetStarted from '../components/getStarted.vue';
+import GetStarted from '../components/GetStarted.vue';
 import GeoMap from '../components/chart/GeoMap.vue';
 import { getViewportOffset } from '/@/utils/domUtils';
 import { onMounted, ref } from 'vue';
