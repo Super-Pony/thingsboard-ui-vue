@@ -57,7 +57,7 @@ import MessageTransportBar from '../components/chart/MessageTransportBar.vue';
 import StorageDataPointsBar from '../components/chart/StorageDataPointsBar.vue';
 import GeoMap from '../components/chart/GeoMap.vue';
 import UsageList from '../components/UsageList.vue';
-import GetStarted from '../components/getStarted.vue';
+import GetStarted from '../components/GetStarted.vue';
 import DashboardCard from '../components/dashboardCard.vue';
 import { getViewportOffset } from '/@/utils/domUtils';
 import { useWindowSizeFn } from '/@/hooks/event/useWindowSizeFn';
