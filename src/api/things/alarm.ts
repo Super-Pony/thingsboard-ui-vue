@@ -107,14 +107,18 @@ export function unAssignAlarm(alarmId: string) {
 
 export function getAlarmInfoList(params: AlarmQueryParam) {
   return defHttp.get<Page<AlarmInfo>>({
-    url: '/api/v2/alarms',
+    url: '/api/alarms',
     params,
   });
 }
 
-export function getAlarmInfoByEntity(params: AlarmQueryParam, entityType: string, entityId: string) {
+export function getAlarmInfoByEntity(
+  params: AlarmQueryParam,
+  entityType: string,
+  entityId: string,
+) {
   return defHttp.get<Page<AlarmInfo>>({
-    url: `/api/v2/alarm/${entityType}/${entityId}`,
+    url: `/api/alarm/${entityType}/${entityId}`,
     params,
   });
 }

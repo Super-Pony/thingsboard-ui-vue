@@ -47,6 +47,6 @@ export function customerDashboardList(params: BasicQuery, customerId: string) {
 
 export function userDashboardList() {
   return defHttp.get<UserDashboard>({
-    url: '/api/user/dashboards'
+    url: '/api/dashboard/home',
   });
 }
