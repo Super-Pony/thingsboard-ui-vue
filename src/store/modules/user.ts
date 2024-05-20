@@ -135,9 +135,11 @@ export const useUserStore = defineStore({
       this.sessionTimeout = true;
     },
     setPageCache(key: string, value: any) {
+      console.log('setPageCache >>>', key, value);
       this.pageCache[key] = value;
     },
     getPageCacheByKey(key: string, defaultValue?: any): any {
+      console.log('this.pageCache >>>', this.pageCache, defaultValue);
       if (!this.pageCache[key] && defaultValue) {
         this.pageCache[key] = defaultValue;
       }
